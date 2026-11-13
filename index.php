@@ -34,7 +34,15 @@ html, body { overflow-x: hidden; }
 .lp-btn:focus-visible, .lp-focus:focus-visible { outline: 3px solid var(--income); outline-offset: 3px; }
 
 /* Navbar */
-.lp-navwrap { position: sticky; top: 0; z-index: 50; padding: .6rem .75rem 0; }
+.lp-navwrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: .6rem .75rem 0;
+}
 .lp-nav { position: relative; max-width: 72rem; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: .5rem;
     padding: .4rem .4rem .4rem .75rem; border: 1px solid rgba(0,0,0,.08); border-radius: 999px; background: rgba(255,255,255,.88);
     -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); box-shadow: 0 1px 3px rgba(0,0,0,.06); }
