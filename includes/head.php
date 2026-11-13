@@ -13,7 +13,6 @@ if (!function_exists('logo_mark')) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= h(($pageTitle ?? 'SakuBijak') . ' · SakuBijak') ?></title>
     <meta name="theme-color" content="#344B3D">
-    <link rel="icon" type="image/jpeg" href="<?= h(app_url('assets/img/sakubijak-icon.jpg')) ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
